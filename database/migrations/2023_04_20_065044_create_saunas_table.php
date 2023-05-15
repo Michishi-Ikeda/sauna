@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('saunas', function (Blueprint $table) {
             $table->id();
-            $table->string('sauna name',50);
+            $table->string('sauna_name',50);
             $table->string('detail',200);
             $table->string('review');
             $table->timestamps();
